@@ -114,8 +114,9 @@ code {
 	color:#144efb;
 	pointer-events: none;
 }
-.pitch-accent {
-    display:inline;
+.pitch-accent{
+    display: inline-block;
+    position: relative;
 }
 span.marking,marking{
     border-top:solid transparent 1px;
@@ -128,14 +129,13 @@ span.drop,span.overline,span.drop,span.overline{
     border-top:solid #dc3545 1px;
     position:relative
 }
-span.drop::after,span.drop::after{
-    background:#dc3545;
-    content:"";
-    height:4px;
-    left:100%;
-    position:absolute;
-    top:-1px;
-    width:1px
+span.drop-line{
+    border-color: #dc3545;
+    top: 0.08em;
+    position: absolute;
+    height: 6px;
+    border-left-width: 1px;
+    border-left-style: solid;
 }
 h1{
     text-align:center;
