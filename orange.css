@@ -46,6 +46,7 @@ span.drop-line{
     border-color: #dc3545;
     top: 0.08em;
     position: absolute;
+    right: 1em;
     height: 6px;
     border-left-width: 1px;
     border-left-style: solid;
