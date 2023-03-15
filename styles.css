@@ -1,58 +1,41 @@
-html{
-    font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
+ html{
+     font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+     -ms-text-size-adjust:100%;
+     -webkit-text-size-adjust:100% 
 }
-body{
-    margin:2% 5%;
-    text-align:center;
-    line-height:140%;
-    font-size:18px;
-    line-height:1.5;
-    -webkit-font-smoothing:antialiased;
-    color:#eee;
-    background:#212121
+ body{
+     margin:2% 5%;
+     text-align:center;
+     line-height:140%;
+     font-size:18px;
+     line-height:1.5;
+     -webkit-font-smoothing:antialiased;
+     color:#eee;
+     background:#212121 
 }
-h1 a.anchor,
-h2 a.anchor,
-h3 a.anchor,
-h4 a.anchor,
-h5 a.anchor,
-h6 a.anchor{
-margin-left: 0.5rem;
-opacity:0;
-position: absolute;
-transition: opacity 0.2s linear;
+ h1 a.anchor,h2 a.anchor,h3 a.anchor,h4 a.anchor,h5 a.anchor,h6 a.anchor{
+     margin-left: 0.5rem;
+     opacity:0;
+     position: absolute;
+     transition: opacity 0.2s linear;
 }
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor{
-opacity:1;
+ h1:hover a.anchor,h2:hover a.anchor,h3:hover a.anchor,h4:hover a.anchor,h5:hover a.anchor,h6:hover a.anchor{
+     opacity:1;
 }
-a{
-    color:#40B0FF;
+ a{
+     color:#40B0FF;
+}
+ span.drop,span.overline{
+     border-top:solid #dc3545 1px;
+     position: relative;
+     padding-right: 0.1em;
+     padding-top: 0.05em;
 }
 .pitch-accent{
     display: inline-block;
     position: relative;
 }
-span.marking,marking{
-    border-top:solid transparent 1px;
-    display:inline-block;
-    padding-top:0;
-    text-indent:0;
-    vertical-align:bottom
-}
-span.drop,span.overline,span.drop,span.overline{
-    border-top:solid #dc3545 1px;
-    position:relative;
-    padding-right: 0.1em;
-    padding-top: 0.05em;
-}
-span.drop-line{
+ span.drop-line{
     border-color: #dc3545;
     top: 0.08em;
     position: absolute;
@@ -60,80 +43,59 @@ span.drop-line{
     border-left-width: 1px;
     border-left-style: solid;
 }
-h1{
-    text-align:center;
-    font-size:1.95em
+ h1{
+     text-align:center;
+     font-size:1.95em 
 }
-h2{
-    display:block;
-    font-size:1.5em;
-    margin-block-start:.83em;
-    margin-block-end:.83em;
-    margin-inline-start:0;
-    margin-inline-end:0;
-    font-weight:700
+ h2,h3,h4,h5{
+     display:block;
+     margin-block-start:.83em;
+     margin-block-end:.83em;
+     margin-inline-start:0;
+     margin-inline-end:0;
+     font-weight:700 
 }
-h3{
-    text-align: left;
-    display:block;
-    font-size:1.5em;
-    margin-block-start:.83em;
-    margin-block-end:.83em;
-    margin-inline-start:0;
-    margin-inline-end:0;
-    font-weight:700
+ h2{
+     font-size:1.5em;
 }
-h4{
-    text-align: left;
-    display:block;
-    font-size:2.0em;
-    margin-block-start:.83em;
-    margin-block-end:.83em;
-    margin-inline-start:0;
-    margin-inline-end:0;
-    font-weight:700
+ h3{
+     font-size:1.5em;
 }
-h5{
-    text-align: left;
-    display:block;
-    font-size:1.5em;
-    margin-block-start:.83em;
-    margin-block-end:.83em;
-    margin-inline-start:0;
-    margin-inline-end:0;
-    font-weight:700
+ h4{
+     font-size:2.0em;
 }
-p{
-    margin:.67em 0 1em
+ h5{
+     font-size:1.5em;
 }
-table{
-    border-collapse:collapse;
-    table-layout:auto;
-    text-align:left;
-    margin-bottom:1em;
-    border:1px solid #4f4f4f;
-    margin-top:.5em;
-    width: 100%;
+ p{
+     margin:.67em 0 1em 
 }
-td{
-    word-break: keep-all;
-    border: 1px solid #4f4f4f;
-    text-align: center;
-    width: 10%;
+ table{
+     border-collapse:collapse;
+     table-layout:auto;
+     text-align:left;
+     margin-bottom:1em;
+     border:1px solid #4f4f4f;
+     margin-top:.5em;
+     width: 100%;
 }
-th{
-    text-align: center;
-    border:1px solid #4f4f4f;
-
+ td{
+     word-break: keep-all;
+     border: 1px solid #4f4f4f;
+     text-align: center;
+     width: 10%;
 }
-td:last-child {
-    padding: 10px;
-    text-align: left;
-    width: 100%;
+ th{
+     text-align: center;
+     border:1px solid #4f4f4f;
 }
-
-code {
-    font-family: inherit;
-  background-color: #ff0064;
-  background: rgba(255,0,0,.1);
+ td:last-child {
+     padding: 10px;
+     text-align: left;
+     width: 100%;
+}
+ code {
+     font-family: inherit;
+     background-color: #ff0064;
+     background: rgba(255,0,0,.1);
 }
