@@ -26,22 +26,16 @@
      color:#40B0FF;
 }
  span.drop,span.overline{
-     border-top:solid #dc3545 1px;
-     position: relative;
-     padding-right: 0.1em;
-     padding-top: 0.05em;
+     padding-top: 0.1em;
 }
-.pitch-accent{
-    display: inline-block;
-    position: relative;
+ span.overline{
+     background: linear-gradient(#dc3545 0 0) top /100% 1px;
+     background-repeat:no-repeat;
 }
- span.drop-line{
-    border-color: #dc3545;
-    top: 0.08em;
-    position: absolute;
-    height: 6px;
-    border-left-width: 1px;
-    border-left-style: solid;
+ span.drop{
+     background: linear-gradient(#dc3545 0 0) top /100% 1px, linear-gradient(#dc3545 0 0) 100% 0% / 1px 40%;
+     background-repeat:no-repeat;
+     padding-right: 0.2em;
 }
  h1{
      text-align:center;
@@ -99,3 +93,4 @@
      background-color: #ff0064;
      background: rgba(255,0,0,.1);
 }
+ 
