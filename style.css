@@ -24,6 +24,8 @@
 }
  a{
      color:#40B0FF;
+     word-wrap: break-word;
+
 }
  span.drop,span.overline{
      padding-top: 0.1em;
